@@ -2,7 +2,6 @@ import React from 'react';
 import Menu from "../Menu/Menu";
 import Header from "../Header/Header";
 import InfoDate from "../InfoDate/InfoDate";
-import Timetable from "../Timetable/Timetable";
 import Dresscode from "../DressCode/Dresscode";
 import Details from "../Details/Details";
 import Counter from "../Counter/Counter";
@@ -37,7 +36,6 @@ function App() {
         onOpenBurger={handleOpenBurger} />
       <Header />
       <InfoDate />
-      <Timetable />
       <Dresscode />
       <Details />
       <Counter

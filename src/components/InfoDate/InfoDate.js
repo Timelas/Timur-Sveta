@@ -16,7 +16,7 @@ function InfoDate() {
         <div className="info-date__check-in">
           <p className="info-date__where">Ресторан "Метрополь Холл" <br /> Каширское шоссе, 27-й километр, вл20/1с1, г. Видное</p>
         </div>
-        <p className="info-date__day-week">Воскресенье</p>
+        <p className="info-date__day-week">Пятница</p>
         <div className="info-date__day">
           <p className="info-date__number">28</p>
           <div className="info-date__vertical-line"></div>
