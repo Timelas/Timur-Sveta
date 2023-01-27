@@ -86,7 +86,7 @@
   width: 100%;
   height: 55px;
   border-radius: 3.5px;
-  border: .5px solid #ad9a8780;
+  border: .5px solid #4c6f88;
   font-family: "Romul", "Arial", sans-serif;
   font-size: 15pt;
   padding: 5px;
@@ -128,11 +128,11 @@
 }
 
 .question__unvisible:checked + .question__visible-radio {
-  background-color: gray;
+  background-color: #4c6f88;
 }
 
 .question__unvisible:disabled + .question__visible-radio {
-  border: 1px solid #5b3f21;
+  border: 1px solid #4c6f88;
   background-color: #fbf8ec;
 }
 
@@ -155,11 +155,11 @@
 }
 
 .question__unvisible:checked + .question__visible-checkbox {
-  background-color: #5b3f21;
+  background-color: #4c6f88;
 }
 
 .question__unvisible:disabled + .question__visible-checkbox {
-  border: 1px solid #5b3f21;
+  border: 1px solid #4c6f88;
   background-color: #fbf8ec;
 }
 

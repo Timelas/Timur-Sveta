@@ -27,33 +27,33 @@ function Questions() {
           </label>
         </fieldset>
         <fieldset className="question__string">Пожелания по напиткам:
-          <label  htmlFor="chicken" className="question__label">
-            <input className="question__unvisible" type="radio" name="eat" value="chicken" id="chicken"></input>
+          <label  htmlFor="champange" className="question__label">
+            <input className="question__unvisible" type="radio" name="alco" value="шампанское" id="champange"></input>
             <span className="question__visible-radio"></span>
             <span className="question__text-span">Шампанское</span>
           </label>
-          <label htmlFor="fish" className="question__label">
-            <input className="question__unvisible" type="radio" name="eat" value="fish" id="fish"></input>
+          <label htmlFor="vino-red" className="question__label">
+            <input className="question__unvisible" type="radio" name="alco" value="вино красное" id="vino-red"></input>
             <span className="question__visible-radio"></span>
             <span className="question__text-span">Вино красное полусладкое</span>
           </label>
-          <label htmlFor="meat" className="question__label">
-            <input className="question__unvisible" type="radio" name="eat" value="meat" id="meat"></input>
+          <label htmlFor="vino-withe" className="question__label">
+            <input className="question__unvisible" type="radio" name="alco" value="вино белое" id="vino-withe"></input>
             <span className="question__visible-radio"></span>
             <span className="question__text-span">Вино белое полусухое</span>
           </label>
-          <label htmlFor="meat" className="question__label">
-            <input className="question__unvisible" type="radio" name="eat" value="meat" id="meat"></input>
+          <label htmlFor="cognac" className="question__label">
+            <input className="question__unvisible" type="radio" name="alco" value="Коньяк" id="cognac"></input>
             <span className="question__visible-radio"></span>
             <span className="question__text-span">Коньяк</span>
           </label>
-          <label htmlFor="meat" className="question__label">
-            <input className="question__unvisible" type="radio" name="eat" value="meat" id="meat"></input>
+          <label htmlFor="vodka" className="question__label">
+            <input className="question__unvisible" type="radio" name="alco" value="Водка" id="vodka"></input>
             <span className="question__visible-radio"></span>
             <span className="question__text-span">Водка</span>
           </label>
-          <label htmlFor="meat" className="question__label">
-            <input className="question__unvisible" type="radio" name="eat" value="meat" id="meat"></input>
+          <label htmlFor="no-alco" className="question__label">
+            <input className="question__unvisible" type="radio" name="alco" value="Безалкогольное" id="no-alco"></input>
             <span className="question__visible-radio"></span>
             <span className="question__text-span">Безалкогольные напитки</span>
           </label>
