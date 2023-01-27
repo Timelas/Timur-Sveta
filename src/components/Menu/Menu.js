@@ -12,7 +12,6 @@ function Menu(props) {
           <ul className="menu__links">
             <li className="menu__link"><a href="#home" className="menu__ancor">ГЛАВНАЯ</a></li>
             <li className="menu__link"><a href="#place" className="menu__ancor">ГДЕ</a></li>
-            <li className="menu__link"><a href="#plan" className="menu__ancor">ПЛАН ДНЯ</a></li>
             <li className="menu__link"><a href="#dresscode" className="menu__ancor">ДРЕСС КОД</a></li>
             <li className="menu__link"><a href="#details" className="menu__ancor">ДЕТАЛИ</a></li>
             <li className="menu__link"><a href="#rsvp" className="menu__ancor">RSVP</a></li>
