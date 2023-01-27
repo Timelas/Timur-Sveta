@@ -31,8 +31,8 @@
 
 .header__info_names-mobile {
   font-family: "Caravan", "Arial", sans-serif;
-  font-size: 80px;
-  line-height: 70px;
+  font-size: 77px;
+  line-height: 65px;
   margin: 0;
   transform: translateX(-40px);
 }
@@ -179,7 +179,7 @@
   .header__image-mobile {
     height: 67vh;
     object-fit: cover;
-    margin: 45px 0 0;
+    margin: 30px 0 0;
     position: relative;
     align-self: center;
   }
@@ -199,14 +199,14 @@
 
   .header__title {
     position: relative;
-    right: -50px;
+    right: -40px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .header__image-mobile {
     position: relative;
-    right: -50px;
+    right: -40px;
     align-self: flex-end;
   }
 

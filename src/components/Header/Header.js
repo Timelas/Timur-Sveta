@@ -22,7 +22,7 @@ function Header() {
           <div className="header__mobile">
             <div className="header__info-mobile">
               <p className="header__info_names-mobile">Тиму&#8204;р и</p>
-              <p className="header__info_names-mobile">&ensp;&ensp;&ensp;&ensp;Светлана</p>
+              <p className="header__info_names-mobile">&ensp;&ensp;&ensp;&ensp;&ensp;Светлана</p>
             </div>
             <div className="header__block">
               <h1 className="header__title">Приглашение на свадьбу</h1>
