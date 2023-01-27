@@ -32,7 +32,7 @@
 .header__info_names-mobile {
   font-family: "Caravan", "Arial", sans-serif;
   font-size: 77px;
-  line-height: 65px;
+  line-height: 62px;
   margin: 0;
   transform: translateX(-40px);
 }
@@ -179,7 +179,7 @@
   .header__image-mobile {
     height: 65vh;
     object-fit: cover;
-    margin: 25px 0 0;
+    margin: 23px 0 0;
     position: relative;
     align-self: center;
   }
