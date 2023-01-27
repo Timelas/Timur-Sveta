@@ -14,7 +14,7 @@ function Questions() {
           <label htmlFor="who" className="question__label-input">ИМЯ И ФАМИЛИЯ:</label>
           <input type="text" name="who" id="who" required className="question__input"></input>
         </p>
-        <fieldset className="question__string">Понадобится ли вам трансфер:
+        <fieldset className="question__string">Будут ли с вами дети:
           <label  htmlFor="yes-transfer" className="question__label">
             <input className="question__unvisible" type="radio" name="transfer" value="yes-transfer" id="yes-transfer"></input>
             <span className="question__visible-radio"></span>
@@ -28,18 +28,18 @@ function Questions() {
         </fieldset>
         <fieldset className="question__string">Предпочтения по еде:
           <label  htmlFor="chicken" className="question__label">
-            <input className="question__unvisible" type="checkbox" name="eat" value="chicken" id="chicken"></input>
-            <span className="question__visible-checkbox"></span>
+            <input className="question__unvisible" type="radio" name="eat" value="chicken" id="chicken"></input>
+            <span className="question__visible-radio"></span>
             <span className="question__text-span">Курица</span>
           </label>
           <label htmlFor="fish" className="question__label">
-            <input className="question__unvisible" type="checkbox" name="eat" value="fish" id="fish"></input>
-            <span className="question__visible-checkbox"></span>
+            <input className="question__unvisible" type="radio" name="eat" value="fish" id="fish"></input>
+            <span className="question__visible-radio"></span>
             <span className="question__text-span">Рыба</span>
           </label>
           <label htmlFor="meat" className="question__label">
-            <input className="question__unvisible" type="checkbox" name="eat" value="meat" id="meat"></input>
-            <span className="question__visible-checkbox"></span>
+            <input className="question__unvisible" type="radio" name="eat" value="meat" id="meat"></input>
+            <span className="question__visible-radio"></span>
             <span className="question__text-span">Мясо</span>
           </label>
         </fieldset>
