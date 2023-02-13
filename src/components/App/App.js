@@ -5,7 +5,6 @@ import Header from "../Header/Header";
 import InfoDate from "../InfoDate/InfoDate";
 import Dresscode from "../DressCode/Dresscode";
 import Details from "../Details/Details";
-import Counter from "../Counter/Counter";
 import Timer from "../Timer/Timer";
 import Rsvp from "../RSVP/Rsvp";
 import Questions from "../Questions/Questions"
@@ -63,7 +62,7 @@ function App() {
       <InfoDate />
       <Dresscode />
       <Details />
-      <Counter
+      <Countdown
       date={"2023-07-28T17:00:00+00:00"}
       renderer={renderer}/>
       <Rsvp />
