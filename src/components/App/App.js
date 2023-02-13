@@ -68,11 +68,11 @@ function App() {
       <Header />
       <InfoDate />
       <Details />
-      <Countdown
-      date={"2023-07-28T17:00:00+03:00"}
-      renderer={renderer}/>
       <Rsvp />
       <Questions />
+      <Countdown
+        date={"2023-07-28T17:00:00+03:00"}
+        renderer={renderer}/>
       <Footer />
       <BurgerMenu
         isOpenBurger={isOpenBurger}
