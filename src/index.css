@@ -10,6 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   max-width: 1650px;
   background-color: #fdeded;
+  -webkit-tap-highlight-color: transparent;
   /* background-color: #f7dfdf; */
 }
 
@@ -20,4 +21,12 @@ code {
 
 html {
   scroll-behavior: smooth;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
 }

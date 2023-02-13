@@ -53,7 +53,15 @@
   transform: rotate(0deg);
   transition: .5s ease-in-out;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
+
+.menu__button:active {
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
 .menu__span {
   display: block;
   position: absolute;
