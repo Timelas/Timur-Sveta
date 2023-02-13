@@ -1,10 +1,12 @@
 import React from 'react';
+import Countdown from 'react-countdown';
 import Menu from "../Menu/Menu";
 import Header from "../Header/Header";
 import InfoDate from "../InfoDate/InfoDate";
 import Dresscode from "../DressCode/Dresscode";
 import Details from "../Details/Details";
 import Counter from "../Counter/Counter";
+import Timer from "../Timer/Timer";
 import Rsvp from "../RSVP/Rsvp";
 import Questions from "../Questions/Questions"
 import Footer from "../Footer/Footer";
@@ -16,36 +18,60 @@ function App() {
   const [isButtonVisible, setIsButtonVisible] = React.useState(true);
   const [isOpenBurger, setIsOpenBurger] = React.useState(false);
   const [isCloseBurger, setIsCloseBurger] = React.useState(true);
+  const [isChangeBurger, setIsChangeBurger] = React.useState(false);
+
+  function changeBurger() {
+    if (isChangeBurger) {
+      handleCloseBurger ();
+    } else {
+      handleOpenBurger ();
+    }
+  }
 
   function handleOpenBurger () {
     setIsOpenBurger(true);
     setIsButtonVisible(false);
     setIsCloseBurger(false);
+    setIsChangeBurger(true);
   }
 
   function handleCloseBurger () {
     setIsOpenBurger(false);
     setIsButtonVisible(true);
     setIsCloseBurger(true);
+    setIsChangeBurger(false);
   }
+
+  const renderer = ({ days, hours, minutes, seconds, completed }) => {
+    if (completed) {
+      return <span>Этот день настал!</span>;
+    } else {
+      return <Timer
+      days={days}
+      hours={hours}
+      minutes={minutes}
+      seconds={seconds}/>;
+    }
+  };
 
   return (
     <div className="App">
       <Menu
-        isButtonVisible={isButtonVisible}
-        onOpenBurger={handleOpenBurger} />
+        isChangeBurger={isChangeBurger}
+        onVisibleBurger={changeBurger} />
       <Header />
       <InfoDate />
       <Dresscode />
       <Details />
       <Counter
-      date={new Date('27 Jul 2023 17:00')} />
+      date={"2023-07-28T17:00:00+00:00"}
+      renderer={renderer}/>
       <Rsvp />
       <Questions />
       <Footer />
       <BurgerMenu
         isOpenBurger={isOpenBurger}
-        onCloseBurger={handleCloseBurger} />
+        onCloseBurger={changeBurger} />
     </div>
   );
 }

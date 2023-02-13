@@ -80,6 +80,12 @@
   align-self: center;
 }
 
+.rsvp__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .rsvp__button {
   width: 200px;
   height: 50px;

@@ -33,15 +33,15 @@ function Counter({ date }) {
         <div className="counter__bloks">
           <div className="dresscode__block-info">
             <p className="counter__number counter__number_var_month">{diffMonths}</p>
-            <p className="counter__text">Месяцев</p>
+            <p className="counter__text">Месяца</p>
           </div>
           <div className="dresscode__block-info">
             <p className="counter__number counter__number_var_day">{diffDays}</p>
-            <p className="counter__text">День</p>
+            <p className="counter__text">Дней</p>
           </div>
           <div className="dresscode__block-info">
             <p className="counter__number counter__number_var_hour">{diffH.toString().padStart(2, '0')}</p>
-            <p className="counter__text">Часа</p>
+            <p className="counter__text">Часов</p>
           </div>
           <div className="dresscode__block-info">
             <p className="counter__number counter__number_var_min">{diffM
