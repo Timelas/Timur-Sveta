@@ -4,7 +4,7 @@ import "./Questions.css";
 
 function Questions() {
   const formRef = useRef(null)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbzTkeYvid-uDPae-ZFxpoZhHw3SGWQiLzb_C-1h11xfBY16fs2FSDDI8SpHnPgGe7a4_A/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycby4dEFWUwqjIT6QCXP9xTrTXyhyOb6DWKj34F3miu6bI2Pd8UsY_KjK26cOgJJdqqNFeA/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setisFormVisible] = useState(true);
 
@@ -52,33 +52,33 @@ function Questions() {
         </fieldset>
         <fieldset className="question__string">Пожелания по напиткам:
           <label  htmlFor="champange" className="question__label">
-            <input className="question__unvisible" type="radio" name="Алкоголь" value="Шампанское" id="champange"></input>
-            <span className="question__visible-radio"></span>
+            <input className="question__unvisible" type="checkbox" name="Шампанское" value="Шампанское" id="champange"></input>
+            <span className="question__visible-checkbox"></span>
             <span className="question__text-span">Шампанское</span>
           </label>
           <label htmlFor="vino-red" className="question__label">
-            <input className="question__unvisible" type="radio" name="Алкоголь" value="Вино красное" id="vino-red"></input>
-            <span className="question__visible-radio"></span>
+            <input className="question__unvisible" type="checkbox" name="Вино красное" value="Вино красное" id="vino-red"></input>
+            <span className="question__visible-checkbox"></span>
             <span className="question__text-span">Вино красное полусладкое</span>
           </label>
           <label htmlFor="vino-withe" className="question__label">
-            <input className="question__unvisible" type="radio" name="Алкоголь" value="Вино белое" id="vino-withe"></input>
-            <span className="question__visible-radio"></span>
+            <input className="question__unvisible" type="checkbox" name="Вино белое" value="Вино белое" id="vino-withe"></input>
+            <span className="question__visible-checkbox"></span>
             <span className="question__text-span">Вино белое полусухое</span>
           </label>
           <label htmlFor="cognac" className="question__label">
-            <input className="question__unvisible" type="radio" name="Алкоголь" value="Коньяк" id="cognac"></input>
-            <span className="question__visible-radio"></span>
+            <input className="question__unvisible" type="checkbox" name="Коньяк" value="Коньяк" id="cognac"></input>
+            <span className="question__visible-checkbox"></span>
             <span className="question__text-span">Коньяк</span>
           </label>
           <label htmlFor="vodka" className="question__label">
-            <input className="question__unvisible" type="radio" name="Алкоголь" value="Водка" id="vodka"></input>
-            <span className="question__visible-radio"></span>
+            <input className="question__unvisible" type="checkbox" name="Водка" value="Водка" id="vodka"></input>
+            <span className="question__visible-checkbox"></span>
             <span className="question__text-span">Водка</span>
           </label>
           <label htmlFor="no-alco" className="question__label">
-            <input className="question__unvisible" type="radio" name="Алкоголь" value="Безалкогольное" id="no-alco"></input>
-            <span className="question__visible-radio"></span>
+            <input className="question__unvisible" type="checkbox" name="Безалкогольные" value="Безалкогольные" id="no-alco"></input>
+            <span className="question__visible-checkbox"></span>
             <span className="question__text-span">Безалкогольные напитки</span>
           </label>
         </fieldset>

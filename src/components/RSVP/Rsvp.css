@@ -38,6 +38,19 @@
   margin: 30px 0 0;
 }
 
+.question__return {
+  font-family: "Romul", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 37px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  transition: opacity .4s;
+  margin: 0;
+  color: black;
+}
+
+
 .rsvp__form {
   display: flex;
   flex-direction: column;
@@ -100,6 +113,10 @@
   font-weight: 200;
 }
 
+.rsvp__button:disabled {
+  opacity: .7;
+}
+
 .rsvp__figure {
   background-image: url(../../images/figure.svg);
   background-repeat: no-repeat;
@@ -137,6 +154,12 @@
   .rsvp__text {
     font-size: 18px;
     line-height: 33px;
+  }
+
+  .question__return {
+    font-size: 14px;
+    line-height: 33px;
+    padding: 0;
   }
 
   .rsvp__string {
@@ -187,6 +210,11 @@
     line-height: 28px;
     width: 60%;
     margin: 0;
+  }
+
+  .question__return {
+    font-size: 10px;
+    line-height: 28px;
   }
 
   .rsvp__form {
@@ -248,6 +276,11 @@
     line-height: 22px;
     width: 80%;
     margin: 20px 0 0;
+  }
+
+  .question__return {
+    font-size: 8px;
+    line-height: 22px;
   }
 
   .rsvp__form {

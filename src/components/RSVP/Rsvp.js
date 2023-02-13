@@ -4,7 +4,7 @@ import "./Rsvp.css";
 
 function Rsvp() {
   const formRef = useRef(null)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbzTkeYvid-uDPae-ZFxpoZhHw3SGWQiLzb_C-1h11xfBY16fs2FSDDI8SpHnPgGe7a4_A/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycby4dEFWUwqjIT6QCXP9xTrTXyhyOb6DWKj34F3miu6bI2Pd8UsY_KjK26cOgJJdqqNFeA/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setIsFormVisible] = useState(true);
   const [isSubmitChange, setIsSubmitChange] = useState(true);
@@ -69,7 +69,7 @@ function Rsvp() {
             <input type="text" name="Имя и Фамилия" id="name" required className="rsvp__input"></input>
           </p>
           <p className="rsvp__string">
-            <label htmlFor="person" className="rsvp__label">Количество персон</label>
+            <label htmlFor="person" className="rsvp__label">количество персон</label>
             <input type="number" min="0" max="10" name="Количество персон" id="person" required className="rsvp__input"></input>
           </p>
           <div className="rsvp__buttons">
