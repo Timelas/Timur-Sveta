@@ -42,6 +42,10 @@
   transition: visibility .5s, width .5s ease-in;
 }
 
+.burger-menu__link:hover {
+  transform: scale(110%);
+}
+
 .burger-menu__link_visible {
   visibility: visible;
   width: 100%;
