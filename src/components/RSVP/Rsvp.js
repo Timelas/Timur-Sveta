@@ -61,7 +61,7 @@ function Rsvp() {
       { isFormVisible ?
       <div className="rsvp__container">
         <p className="rsvp__text">Пожалуйста, подтвердите ваше присутствие на нашем празднике до
-        01 июня 2023 года любым удобным для вас способом или заполните форму ниже:
+        01 июля 2023 года любым удобным для вас способом или заполните форму ниже:
         </p>
         <form className="rsvp__form" ref={formRef} name="rsvp" id="rsvp" onSubmit={isSubmitChange ? handleSubmitYes : handleSubmitNo}>
           <p className="rsvp__string">
@@ -73,14 +73,14 @@ function Rsvp() {
             <input type="number" min="0" max="10" name="Количество персон" id="person" required className="rsvp__input"></input>
           </p>
           <div className="rsvp__buttons">
-          <button className="rsvp__button" name="Принято" onClick={renderSubmitYes} disabled={loading ? true : false}>{loading ? "Отправка..." : "Подтвердить"}</button>
-          <button className="rsvp__button" name="Отклонено" onClick={renderSubmitNo} disabled={loading ? true : false}>{loading ? "Отправка..." : "Отклонить"}</button>
+          <button className="rsvp__button" name="Принято" onClick={renderSubmitYes} disabled={loading ? true : false}>{loading ? "Обработка..." : "Подтвердить"}</button>
+          <button className="rsvp__button" name="Отклонено" onClick={renderSubmitNo} disabled={loading ? true : false}>{loading ? "Обработка..." : "Отклонить"}</button>
           </div>
         </form>
       </div> :
       <div>
-        <p className="question__answer">Форма отправлена!</p>
-        <button className="question__return" onClick={returnForm}>Планы поменялись? Заполнить форму заново</button>
+        <p className="rsvp__answer">Форма отправлена!</p>
+        <button className="rsvp__return" onClick={returnForm}>Планы поменялись? Заполнить форму заново</button>
       </div>
       }
     </section>

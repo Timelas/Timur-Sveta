@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
   position: relative;
 }
 
@@ -40,7 +39,7 @@
   font-size: 20px;
   line-height: 37px;
   width: 60%;
-  margin: 60px 0 0;
+  margin: 30px 0 0;
 }
 
 .dresscode__colors {
@@ -49,6 +48,7 @@
   justify-content: space-between;
   margin: 50px 0;
   min-width: 30%;
+  gap: 20px;
 }
 
 .dresscode__color {
@@ -75,7 +75,7 @@
 }
 
 .dresscode__color_var_five {
-  background-color: #df92b0;
+  background-color: #eba0bc;
 }
 
 .dresscode__figure {
@@ -91,10 +91,6 @@
 }
 
 @media screen and (max-width: 1700px) {
-  .dresscode {
-    padding-top: 70px;
-  }
-
   .dresscode__title {
     font-size: 100px;
     padding-bottom: 50px;
@@ -107,8 +103,7 @@
 
   .dresscode__description {
     font-size: 18px;
-    width: 50%;
-    margin: 40px 0 0;
+    margin: 20px 0 0;
   }
 
   .dresscode__colors {
@@ -123,10 +118,6 @@
 }
 
 @media screen and (max-width: 1300px) {
-  .dresscode {
-    padding-top: 50px;
-  }
-
   .dresscode__title {
     font-size: 70px;
   }
@@ -147,12 +138,11 @@
   .dresscode__description {
     font-size: 14px;
     line-height: 30px;
-    margin: 0;
+    margin: 10px 0 0;
   }
 
   .dresscode__colors {
     margin: 40px 0 0;
-    gap: 20px;
   }
 
   .dresscode__color {
@@ -162,10 +152,6 @@
 }
 
 @media screen and (max-width: 800px) {
-  .dresscode {
-    padding-top: 30px;
-  }
-
   .dresscode__header {
     flex-direction: row-reverse;
     align-self: flex-start;
@@ -195,7 +181,7 @@
     font-size: 12px;
     line-height: 23px;
     width: 80%;
-    margin: 0;
+    margin: 7px 0 0;
   }
 
   .dresscode__colors {

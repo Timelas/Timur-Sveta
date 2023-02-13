@@ -79,19 +79,19 @@
 }
 
 .timer__number_var_day {
-  background-color: #9b8870;
+  background-color: #66517d;
 }
 
 .timer__number_var_hour {
-background-color: #ad9a87;
+background-color: #9a576f;
 }
 
 .timer__number_var_min {
-background-color: #7f776f;
+background-color: #835460;
 }
 
 .timer__number_var_sec {
-background-color: #5b3f21;
+background-color: #415f74;
 }
 
 .timer__text {

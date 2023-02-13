@@ -10,6 +10,7 @@ import Rsvp from "../RSVP/Rsvp";
 import Questions from "../Questions/Questions"
 import Footer from "../Footer/Footer";
 import './App.css';
+import "../Questions/Questions.css";
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
 
 
@@ -43,7 +44,13 @@ function App() {
 
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
-      return <span>Этот день настал!</span>;
+      return     <section className="timer">
+      <div className="timer__header">
+        <div className="timer__trait"></div>
+      </div>
+      <div className="timer__figure"></div>
+        <span className="question__text">Этот день настал!</span>
+    </section>
     } else {
       return <Timer
       days={days}
@@ -60,10 +67,9 @@ function App() {
         onVisibleBurger={changeBurger} />
       <Header />
       <InfoDate />
-      <Dresscode />
       <Details />
       <Countdown
-      date={"2023-07-28T17:00:00+00:00"}
+      date={"2023-07-28T17:00:00+03:00"}
       renderer={renderer}/>
       <Rsvp />
       <Questions />
