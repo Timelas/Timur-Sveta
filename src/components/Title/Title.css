@@ -18,12 +18,12 @@
 }
 
 .title__title {
-  font-family: "Caravan", "Arial", sans-serif;
-  font-size: 120px;
-  font-weight: 200;
+  font-family: "rosamarena", "Arial", sans-serif;
+  font-size: 90px;
+  font-weight: 100;
   margin: 0;
-  line-height: 0.8;
-  align-self: flex-start;
+  line-height: 1;
+  align-self: center;
   text-align: start;
 }
 
@@ -52,7 +52,7 @@
   }
 
   .title__title {
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .title__figure {
@@ -72,7 +72,7 @@
   }
 
   .title__title {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .title__figure {
@@ -86,13 +86,13 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
   .title {
     height: 80px;
   }
 
   .title__title {
-    font-size: 60px;
+    font-size: 40px;
     align-self: center;
   }
 
