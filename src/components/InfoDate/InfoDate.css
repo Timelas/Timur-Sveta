@@ -475,8 +475,8 @@
 
 @media screen and (max-width: 500px) {
   .info-date__who {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 40px;
+    line-height: 45px;
   }
 
   .info-date__text {
@@ -487,8 +487,8 @@
   }
 
   .info-date__our-wedding-text {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 40px;
+    line-height: 45px;
   }
 
  .info-date__what {
